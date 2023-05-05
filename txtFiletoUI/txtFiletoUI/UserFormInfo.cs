@@ -22,7 +22,7 @@ namespace txtFiletoUI
 
         private void btnLoadUserInfo_Click(object sender, EventArgs e)
         {
-            
+
             OpenFileDialog ofd = new OpenFileDialog();
             ofd.Filter = "txt files (*.txt)| *.txt";
             if(ofd.ShowDialog() == DialogResult.OK)
