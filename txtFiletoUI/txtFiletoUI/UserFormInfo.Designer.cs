@@ -105,6 +105,7 @@
             this.btnLoadUserInfo.TabIndex = 6;
             this.btnLoadUserInfo.Text = "Load User Information";
             this.btnLoadUserInfo.UseVisualStyleBackColor = true;
+            this.btnLoadUserInfo.Click += new System.EventHandler(this.btnLoadUserInfo_Click);
             // 
             // txtName
             // 
@@ -168,7 +169,6 @@
             this.Controls.Add(this.lblName);
             this.Name = "UserFormInfo";
             this.Text = "User Info Form";
-            this.Load += new System.EventHandler(this.UserFormInfo_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -28,8 +28,8 @@ namespace txtFiletoUI
             if(ofd.ShowDialog() == DialogResult.OK)
             {
                 UserFileReader filereader = new UserFileReader(ofd.FileName);
-                //UserFileParser parser = new UserFileParser();
-                //parser.stringParser(filereader.readfile());
+                UserFileParser parser = new UserFileParser();
+                parser.stringParser(filereader.readfile());
             }
         }
     }
