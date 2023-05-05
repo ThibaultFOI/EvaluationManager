@@ -1,6 +1,6 @@
 ﻿namespace txtFiletoUI
 {
-    partial class UserFormInfo
+    partial class Form1
     {
         /// <summary>
         /// Variable nécessaire au concepteur.

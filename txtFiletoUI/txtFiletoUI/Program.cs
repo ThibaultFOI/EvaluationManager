@@ -16,7 +16,7 @@ namespace txtFiletoUI
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new UserFormInfo());
+            Application.Run(new Form1());
         }
     }
 }
