@@ -24,7 +24,7 @@ namespace txtFiletoUI
             Faculty = param[4];
             a_Role = new Role();
             a_Role.Name = param[5];
-            a_Role.Description = "mystery";
+            a_Role.SpecificAttribute = (param[6], param[7]);
            
         }
     }

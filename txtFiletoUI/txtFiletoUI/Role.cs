@@ -9,6 +9,6 @@ namespace txtFiletoUI
     internal class Role
     {
         public string Name;
-        public string Description;
+        public (string,string) SpecificAttribute;
     }
 }

@@ -34,7 +34,7 @@
             this.lblCity = new System.Windows.Forms.Label();
             this.lblFaculty = new System.Windows.Forms.Label();
             this.lblRole = new System.Windows.Forms.Label();
-            this.lblRoleDescription = new System.Windows.Forms.Label();
+            this.lblSpecificRoleSection = new System.Windows.Forms.Label();
             this.btnLoadUserInfo = new System.Windows.Forms.Button();
             this.txtName = new System.Windows.Forms.TextBox();
             this.txtSurname = new System.Windows.Forms.TextBox();
@@ -42,7 +42,7 @@
             this.txtCity = new System.Windows.Forms.TextBox();
             this.txtFaculty = new System.Windows.Forms.TextBox();
             this.txtRole = new System.Windows.Forms.TextBox();
-            this.txtRoleDescription = new System.Windows.Forms.TextBox();
+            this.txtSpecificRoleSection = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // lblName
@@ -151,29 +151,29 @@
             this.txtRole.Size = new System.Drawing.Size(199, 26);
             this.txtRole.TabIndex = 12;
             // 
-            // Description
+            // Specific Role Description
             // 
-            this.lblRoleDescription.AutoSize = true;
-            this.lblRoleDescription.Location = new System.Drawing.Point(15, 314);
-            this.lblRoleDescription.Name = "Description";
-            this.lblRoleDescription.Size = new System.Drawing.Size(126, 20);
-            this.lblRoleDescription.TabIndex = 13;
-            this.lblRoleDescription.Text = "Role Description";
+            this.lblSpecificRoleSection.AutoSize = true;
+            this.lblSpecificRoleSection.Location = new System.Drawing.Point(15, 314);
+            this.lblSpecificRoleSection.Name = "lblSpecificRoleSection";
+            this.lblSpecificRoleSection.Size = new System.Drawing.Size(126, 20);
+            this.lblSpecificRoleSection.TabIndex = 13;
+            this.lblSpecificRoleSection.Text = "Specific Role Section";
             // 
-            // txtRoleDescription
+            // txtSpecificRoleSection
             // 
-            this.txtRoleDescription.Location = new System.Drawing.Point(162, 314);
-            this.txtRoleDescription.Name = "txtRoleDescription";
-            this.txtRoleDescription.Size = new System.Drawing.Size(199, 26);
-            this.txtRoleDescription.TabIndex = 14;
+            this.txtSpecificRoleSection.Location = new System.Drawing.Point(162, 314);
+            this.txtSpecificRoleSection.Name = "txtSpecificRoleSection";
+            this.txtSpecificRoleSection.Size = new System.Drawing.Size(199, 26);
+            this.txtSpecificRoleSection.TabIndex = 14;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.txtRoleDescription);
-            this.Controls.Add(this.lblRoleDescription);
+            this.Controls.Add(this.txtSpecificRoleSection);
+            this.Controls.Add(this.lblSpecificRoleSection);
             this.Controls.Add(this.txtRole);
             this.Controls.Add(this.txtFaculty);
             this.Controls.Add(this.txtCity);
@@ -209,8 +209,8 @@
         private System.Windows.Forms.TextBox txtCity;
         private System.Windows.Forms.TextBox txtFaculty;
         private System.Windows.Forms.TextBox txtRole;
-        private System.Windows.Forms.Label lblRoleDescription;
-        private System.Windows.Forms.TextBox txtRoleDescription;
+        private System.Windows.Forms.Label lblSpecificRoleSection;
+        private System.Windows.Forms.TextBox txtSpecificRoleSection;
     }
 }
 

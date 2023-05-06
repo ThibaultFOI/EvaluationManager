@@ -20,9 +20,14 @@ namespace txtFiletoUI
                 string[] parts = line.Split('=');
                 if(parts.Length == 2)
                 {
+                    if (de_list.Count() == 6)
+                    {
+                        string tmp = parts[0].Trim();
+                        de_list.Add(tmp);
+                    }
                     string value = parts[1].Trim();
                     de_list.Add(value);
-                    
+
                 }
 
             }

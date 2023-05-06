@@ -18,8 +18,11 @@ namespace txtFiletoUI
                 form.Controls["txtCity"].Text = current_UserForm.City;
                 form.Controls["txtFaculty"].Text = current_UserForm.Faculty;
                 form.Controls["txtRole"].Text = current_UserForm.a_Role.Name;
-                form.Controls["txtRoleDescription"].Text = current_UserForm.a_Role.Description;
+                form.Controls["txtSpecificRoleSection"].Text = current_UserForm.a_Role.SpecificAttribute.Item2;
 
+                //Change label name in function of the file
+
+                form.Controls["lblSpecificRoleSection"].Text = current_UserForm.a_Role.SpecificAttribute.Item1;
 
 
             }
