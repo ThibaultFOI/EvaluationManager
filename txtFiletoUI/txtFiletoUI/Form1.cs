@@ -29,7 +29,10 @@ namespace txtFiletoUI
             {
                 UserFileReader filereader = new UserFileReader(ofd.FileName);
                 UserFileParser parser = new UserFileParser();
-                parser.stringParser(filereader.readfile());
+                UserFormInfo forminfo = new UserFormInfo(parser.stringParser(filereader.readfile()));
+                UserDisplayer displayer = new UserDisplayer();
+                displayer.DisplayInfo(this,forminfo);
+
             }
         }
     }
