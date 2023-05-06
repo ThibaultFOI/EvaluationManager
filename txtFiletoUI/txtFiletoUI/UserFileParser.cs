@@ -12,20 +12,21 @@ namespace txtFiletoUI
     {
         public string[] stringParser(string text)
         {
-            string[] de = new string[9];
+            List<string> de_list = new List<string>(); 
             string[] lines = text.Split('\n');
+
             foreach (string line in lines)
             {
                 string[] parts = line.Split('=');
                 if(parts.Length == 2)
                 {
                     string value = parts[1].Trim();
-                    de.Append(value);
-                    Console.WriteLine(value);
+                    de_list.Add(value);
+                    
                 }
 
             }
-            return de;
+            return de_list.ToArray();
         }
     }
 }

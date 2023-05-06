@@ -8,13 +8,13 @@ namespace txtFiletoUI
 {
     internal class UserFormInfo
     {
-        string Name;
-        string Surname;
-        string YearofBirth;
-        string City;
-        string Faculty;
-        string Role;
-        string specificattribute;
+        public string Name;
+        public string Surname;
+        public string YearofBirth;
+        public string City;
+        public string Faculty;
+        public string Role;
+        public string specificattribute;
 
         public UserFormInfo(string[] param)
         {
@@ -25,7 +25,7 @@ namespace txtFiletoUI
             Faculty = param[4];
             Role = param[5];
             specificattribute = "mystery";
-
+           
         }
     }
 }
