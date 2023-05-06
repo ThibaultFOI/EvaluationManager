@@ -13,8 +13,7 @@ namespace txtFiletoUI
         public string YearofBirth;
         public string City;
         public string Faculty;
-        public string Role;
-        public string specificattribute;
+        public Role a_Role;
 
         public UserFormInfo(string[] param)
         {
@@ -23,8 +22,9 @@ namespace txtFiletoUI
             YearofBirth = param[2];
             City = param[3];
             Faculty = param[4];
-            Role = param[5];
-            specificattribute = "mystery";
+            a_Role = new Role();
+            a_Role.Name = param[5];
+            a_Role.Description = "mystery";
            
         }
     }

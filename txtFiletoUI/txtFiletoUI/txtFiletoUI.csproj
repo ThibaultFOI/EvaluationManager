@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Role.cs" />
     <Compile Include="UserDisplayer.cs" />
     <Compile Include="UserFileParser.cs" />
     <Compile Include="UserFileReader.cs" />

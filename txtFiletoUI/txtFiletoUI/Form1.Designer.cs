@@ -34,6 +34,7 @@
             this.lblCity = new System.Windows.Forms.Label();
             this.lblFaculty = new System.Windows.Forms.Label();
             this.lblRole = new System.Windows.Forms.Label();
+            this.lblRoleDescription = new System.Windows.Forms.Label();
             this.btnLoadUserInfo = new System.Windows.Forms.Button();
             this.txtName = new System.Windows.Forms.TextBox();
             this.txtSurname = new System.Windows.Forms.TextBox();
@@ -41,12 +42,13 @@
             this.txtCity = new System.Windows.Forms.TextBox();
             this.txtFaculty = new System.Windows.Forms.TextBox();
             this.txtRole = new System.Windows.Forms.TextBox();
+            this.txtRoleDescription = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // lblName
             // 
             this.lblName.AutoSize = true;
-            this.lblName.Location = new System.Drawing.Point(49, 70);
+            this.lblName.Location = new System.Drawing.Point(90, 63);
             this.lblName.Name = "lblName";
             this.lblName.Size = new System.Drawing.Size(51, 20);
             this.lblName.TabIndex = 0;
@@ -55,7 +57,7 @@
             // lblSurname
             // 
             this.lblSurname.AutoSize = true;
-            this.lblSurname.Location = new System.Drawing.Point(26, 111);
+            this.lblSurname.Location = new System.Drawing.Point(67, 104);
             this.lblSurname.Name = "lblSurname";
             this.lblSurname.Size = new System.Drawing.Size(74, 20);
             this.lblSurname.TabIndex = 1;
@@ -64,7 +66,7 @@
             // lblYearofBirth
             // 
             this.lblYearofBirth.AutoSize = true;
-            this.lblYearofBirth.Location = new System.Drawing.Point(10, 153);
+            this.lblYearofBirth.Location = new System.Drawing.Point(51, 146);
             this.lblYearofBirth.Name = "lblYearofBirth";
             this.lblYearofBirth.Size = new System.Drawing.Size(90, 20);
             this.lblYearofBirth.TabIndex = 2;
@@ -73,7 +75,7 @@
             // lblCity
             // 
             this.lblCity.AutoSize = true;
-            this.lblCity.Location = new System.Drawing.Point(65, 194);
+            this.lblCity.Location = new System.Drawing.Point(106, 187);
             this.lblCity.Name = "lblCity";
             this.lblCity.Size = new System.Drawing.Size(35, 20);
             this.lblCity.TabIndex = 3;
@@ -82,7 +84,7 @@
             // lblFaculty
             // 
             this.lblFaculty.AutoSize = true;
-            this.lblFaculty.Location = new System.Drawing.Point(40, 240);
+            this.lblFaculty.Location = new System.Drawing.Point(81, 233);
             this.lblFaculty.Name = "lblFaculty";
             this.lblFaculty.Size = new System.Drawing.Size(60, 20);
             this.lblFaculty.TabIndex = 4;
@@ -91,7 +93,7 @@
             // lblRole
             // 
             this.lblRole.AutoSize = true;
-            this.lblRole.Location = new System.Drawing.Point(58, 285);
+            this.lblRole.Location = new System.Drawing.Point(99, 278);
             this.lblRole.Name = "lblRole";
             this.lblRole.Size = new System.Drawing.Size(42, 20);
             this.lblRole.TabIndex = 5;
@@ -109,51 +111,69 @@
             // 
             // txtName
             // 
-            this.txtName.Location = new System.Drawing.Point(121, 64);
+            this.txtName.Location = new System.Drawing.Point(162, 57);
             this.txtName.Name = "txtName";
             this.txtName.Size = new System.Drawing.Size(199, 26);
             this.txtName.TabIndex = 7;
             // 
             // txtSurname
             // 
-            this.txtSurname.Location = new System.Drawing.Point(121, 105);
+            this.txtSurname.Location = new System.Drawing.Point(162, 98);
             this.txtSurname.Name = "txtSurname";
             this.txtSurname.Size = new System.Drawing.Size(199, 26);
             this.txtSurname.TabIndex = 8;
             // 
             // txtYearofBirth
             // 
-            this.txtYearofBirth.Location = new System.Drawing.Point(121, 147);
+            this.txtYearofBirth.Location = new System.Drawing.Point(162, 140);
             this.txtYearofBirth.Name = "txtYearofBirth";
             this.txtYearofBirth.Size = new System.Drawing.Size(199, 26);
             this.txtYearofBirth.TabIndex = 9;
             // 
             // txtCity
             // 
-            this.txtCity.Location = new System.Drawing.Point(121, 191);
+            this.txtCity.Location = new System.Drawing.Point(162, 184);
             this.txtCity.Name = "txtCity";
             this.txtCity.Size = new System.Drawing.Size(199, 26);
             this.txtCity.TabIndex = 10;
             // 
             // txtFaculty
             // 
-            this.txtFaculty.Location = new System.Drawing.Point(121, 234);
+            this.txtFaculty.Location = new System.Drawing.Point(162, 227);
             this.txtFaculty.Name = "txtFaculty";
             this.txtFaculty.Size = new System.Drawing.Size(199, 26);
             this.txtFaculty.TabIndex = 11;
             // 
             // txtRole
             // 
-            this.txtRole.Location = new System.Drawing.Point(121, 279);
+            this.txtRole.Location = new System.Drawing.Point(162, 272);
             this.txtRole.Name = "txtRole";
             this.txtRole.Size = new System.Drawing.Size(199, 26);
             this.txtRole.TabIndex = 12;
             // 
-            // UserFormInfo
+            // Description
+            // 
+            this.lblRoleDescription.AutoSize = true;
+            this.lblRoleDescription.Location = new System.Drawing.Point(15, 314);
+            this.lblRoleDescription.Name = "Description";
+            this.lblRoleDescription.Size = new System.Drawing.Size(126, 20);
+            this.lblRoleDescription.TabIndex = 13;
+            this.lblRoleDescription.Text = "Role Description";
+            // 
+            // txtRoleDescription
+            // 
+            this.txtRoleDescription.Location = new System.Drawing.Point(162, 314);
+            this.txtRoleDescription.Name = "txtRoleDescription";
+            this.txtRoleDescription.Size = new System.Drawing.Size(199, 26);
+            this.txtRoleDescription.TabIndex = 14;
+            // 
+            // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.txtRoleDescription);
+            this.Controls.Add(this.lblRoleDescription);
             this.Controls.Add(this.txtRole);
             this.Controls.Add(this.txtFaculty);
             this.Controls.Add(this.txtCity);
@@ -167,7 +187,7 @@
             this.Controls.Add(this.lblYearofBirth);
             this.Controls.Add(this.lblSurname);
             this.Controls.Add(this.lblName);
-            this.Name = "UserFormInfo";
+            this.Name = "Form1";
             this.Text = "User Info Form";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -189,6 +209,8 @@
         private System.Windows.Forms.TextBox txtCity;
         private System.Windows.Forms.TextBox txtFaculty;
         private System.Windows.Forms.TextBox txtRole;
+        private System.Windows.Forms.Label lblRoleDescription;
+        private System.Windows.Forms.TextBox txtRoleDescription;
     }
 }
 

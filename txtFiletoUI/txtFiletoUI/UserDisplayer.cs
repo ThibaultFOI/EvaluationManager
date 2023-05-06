@@ -17,7 +17,8 @@ namespace txtFiletoUI
                 form.Controls["txtYearOfBirth"].Text = current_UserForm.YearofBirth;
                 form.Controls["txtCity"].Text = current_UserForm.City;
                 form.Controls["txtFaculty"].Text = current_UserForm.Faculty;
-                form.Controls["txtRole"].Text = current_UserForm.Role;
+                form.Controls["txtRole"].Text = current_UserForm.a_Role.Name;
+                form.Controls["txtRoleDescription"].Text = current_UserForm.a_Role.Description;
 
 
 
